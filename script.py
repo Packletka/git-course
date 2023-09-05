@@ -19,3 +19,7 @@ print(ThreeNums([123, 123, 123]))
 
 
 our_list = [22, 7, 9, 1]
+
+
+def suc_dick():
+    pass
