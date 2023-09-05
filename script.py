@@ -1,12 +1,21 @@
-class Solution(object):
-    def twoSum(self, nums, target):
-        count = -1
-        for j in range(0, len(nums) - 1):
-            count += 1
-            for i in range(count + 1, len(nums)):
-                if nums[j] + nums[i] == target:
-                    return [j, i]
+# First task
+def ThreeNums(our_list):
+    even_list = []
+    for element in our_list:
+        if element % 2 == 0:
+            even_list.append(element)
+    return "Все нечётные༼ つ ◕_◕ ༽つ" if len(even_list) == 0 else f"Наибольшее чётное число: {max(even_list)}"
 
 
-obj = Solution()
-print(obj.twoSum([1, 2, 3, 4, 5, 666, 999, 0], 1))
+print(ThreeNums([123, 123, 123]))
+
+
+# Second task
+# def HardTask(numbers):
+#     pass
+#
+#
+# print(HardTask([1, 2, 2, 7, 14, 25]))
+
+
+our_list = [22, 7, 9, 1]
